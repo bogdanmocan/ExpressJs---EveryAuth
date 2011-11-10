@@ -10,7 +10,7 @@ var express = require('express')
 	, Promise 	= everyauth.Promise;
 	
 everyauth.facebook
-	.myHostname('http://.....')
+	.myHostname('http://......')
 	.appId('your fb app id')
 	.appSecret('your fb secret')
   .findOrCreateUser( function (session, accessToken, accessTokExtra, fbUserMetadata) {
